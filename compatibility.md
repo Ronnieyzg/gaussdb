@@ -1,2 +1,6 @@
-<img width="770" height="926" alt="CleanShot 2025-07-16 at 15 16 08@2x" src="https://github.com/user-attachments/assets/8fb4776c-8d48-45bf-bb6b-a2134412efb4" />
+查看当前所有的库及其兼容性模式
+SELECT datname,  datcompatibility FROM pg_database;
+
+查看当前库的兼容性模式：
+show sql_compatibility;
 
